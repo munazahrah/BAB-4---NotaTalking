@@ -1,4 +1,4 @@
-# Note-Taking App (Flutter File System Persistence)
+# Note-Taking App 
 
 Aplikasi pencatat sederhana (*Note-Taking App*) berbasis Flutter yang mendemonstrasikan mekanisme penyimpanan data lokal menggunakan operasi baca dan tulis berkas secara langsung pada sistem berkas perangkat (*file system*). Proyek ini menerapkan konsep *Data Persistence III* dengan memanfaatkan pustaka bawaan `dart:io` serta paket pendukung lintas platform.
 
@@ -58,14 +58,38 @@ Tambahkan deskripsi penggunaan kamera dan galeri pada berkas `ios/Runner/Info.pl
 <string>Aplikasi memerlukan akses ke kamera untuk mengambil foto baru.</string>
 ```
 
-## Cara Menjalankan Proyek
+## Langkah-langkah Menjalankan Aplikasi
 
-1. Pastikan Flutter SDK telah terpasang pada perangkat Anda.
-2. Unduh seluruh dependensi proyek dengan menjalankan perintah:
-   ```bash
-   flutter pub get
-   ```
-3. Jalankan aplikasi pada emulator atau perangkat fisik:
-   ```bash
-   flutter run
-   ```
+Pastikan Anda sudah menginstal Flutter SDK di perangkat atau komputer Anda.
+
+### 1. Clone repositori
+
+Clone repositori ini ke komputer lokal Anda:
+
+```bash
+git clone https://github.com/munazahrah/BAB-4---NotaTalking.gi
+```
+
+### 2. Masuk ke direktori project
+
+Masuk ke dalam direktori project:
+
+```bash
+cd notetalking
+```
+
+### 3. Unduh package
+
+Unduh seluruh package / dependensi:
+
+```bash
+flutter pub get
+```
+
+### 4. Jalankan aplikasi
+
+Jalankan aplikasi di emulator atau perangkat fisik yang sudah terhubung:
+
+```bash
+flutter run
+```
