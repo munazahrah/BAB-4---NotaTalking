@@ -67,7 +67,7 @@ Pastikan Anda sudah menginstal Flutter SDK di perangkat atau komputer Anda.
 Clone repositori ini ke komputer lokal Anda:
 
 ```bash
-git clone https://github.com/munazahrah/BAB-4---NotaTalking.gi
+git clone https://github.com/munazahrah/BAB-4---NotaTalking.git
 ```
 
 ### 2. Masuk ke direktori project
